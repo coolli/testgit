@@ -9,6 +9,6 @@ def InsertSort(li):
 			j -=1
 		li[j+1]= key
 	return li
-if __name__ = '__main__':
-	print(InsertSort([]))
+if __name__ == '__main__':
+	print(InsertSort([random.randint(1,101) for i in range(10)]))
 
