@@ -1,4 +1,5 @@
 #Python实现插入排序
+import random
 def InsertSort(li):
 	for i in range(1,len(li)):
 		key = li[i]
