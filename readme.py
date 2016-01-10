@@ -8,5 +8,6 @@ def InsertSort(li):
 			j -=1
 		li[j+1]= key
 	return li
-
+if __name__ = '__main__':
+	print(InsertSort([]))
 
